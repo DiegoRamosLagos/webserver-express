@@ -24,7 +24,7 @@ app.get('/',(req, res) => {
     //}
 
     res.render('home', {
-        nombre: 'dIEGO'
+        nombre: 'friend'
     });
 });
 
@@ -35,5 +35,5 @@ app.get('/about',(req, res) => {
 
 
 app.listen(/* puede ser cualquier puerto */ port, () => {
-    console.log(`Escuchando peticiones en el puerto 3000 ${port}`);
+    console.log(`Escuchando peticiones en el puerto ${port}`);
 });
